@@ -372,8 +372,8 @@
   --gohub-navbar-dark-active-color: #fff;
   --gohub-navbar-dark-disabled-color: rgba(255, 255, 255, 0.25);
   --gohub-navbar-dark-toggler-border-color: rgba(255, 255, 255, 0.1);
-  --gohub-navbar-light-color: rgba(0, 0, 0, 0.55);
-  --gohub-navbar-light-hover-color: rgba(0, 0, 0, 0.9);
+  --gohub-navbar-light-color: rgba(0, 0, 0, 0.9);
+  --gohub-navbar-light-hover-color: rgba(0, 0, 0, 0.55);
   --gohub-navbar-light-active-color: #000;
   --gohub-navbar-light-disabled-color: rgba(0, 0, 0, 0.25);
   --gohub-navbar-light-toggler-border-color: rgba(0, 0, 0, 0.1);
@@ -5343,7 +5343,7 @@ textarea.form-control-lg {
   text-decoration: none;
 }
 .nav-link.disabled {
-  color: #7F7F7F;
+  color: pink;
   pointer-events: none;
   cursor: default;
 }
@@ -19958,7 +19958,6 @@ ul {
   font-weight: 700;
   font-size: 0.8rem;
   letter-spacing: 0.01em;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
