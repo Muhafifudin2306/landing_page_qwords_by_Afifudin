@@ -10,7 +10,7 @@
     <!-- ===============================================-->
     <!--    Document Title-->
     <!-- ===============================================-->
-    <title>GoHub | Free Traveling Template</title>
+    <title> Qwords.com: Cloud Web Hosting Indonesia Akses Cepat Aman </title>
 
 
     <!-- ===============================================-->
@@ -19,7 +19,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/img/favicons/apple-touch-icon.png') }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/img/favicons/favicon-32x32.png') }}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/img/favicons/favicon-16x16.png') }}">
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/img/favicons/favicon.ico') }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/img/favicons/favicon.png') }}">
     <link rel="manifest" href="{{ asset('assets/img/favicons/manifest.json') }}">
     <meta name="msapplication-TileImage" content="{{ asset('assets/img/favicons/mstile-150x150.png') }}">
     <meta name="theme-color" content="#ffffff">
@@ -33,6 +33,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600;700&amp;family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&amp;display=swap" rel="stylesheet">
     <link href="{{ asset('assets/css/theme.css') }}" rel="stylesheet" />
     <link href="{{ asset('assets/css/user.css') }}" rel="stylesheet" />
+    <link rel="stylesheet" href="{{ asset('assets/css/navbar.css') }}" />
+    
 
   </head>
 
@@ -43,20 +45,15 @@
     <!--    Main Content-->
     <!-- ===============================================-->
     <main class="main" id="top">
-      <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" data-navbar-on-scroll="light">
-        <div class="container"><a class="navbar-brand" href="index.html"><img src="{{ asset('assets/img/icons/Logo.png') }}" height="35" alt="logo" /></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-          <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto pt-2 pt-lg-0 font-base align-items-center">
-              <li class="nav-item"><a class="nav-link px-3" href="#product">Product</a></li>
-              <li class="nav-item"><a class="nav-link px-3" href="#customers">Customers</a></li>
-              <li class="nav-item"><a class="nav-link px-3" href="#pricing">Pricing</a></li>
-              <li class="nav-item"><a class="nav-link pl-3 me-3" href="#docs">Docs </a></li>
-            </ul>
-            <button class="btn btn-primary">Sign Up</button>
-          </div>
-        </div>
-      </nav>
+
+    <!-- ===============================================-->
+    <!--    Navbsr Content-->
+    <!-- ===============================================-->
+    <x-navbar></x-navbar>
+
+    <!-- ===============================================-->
+    <!--    Action Start Jumbotron Content-->
+    <!-- ===============================================-->
       <section class="py-7 py-lg-10" id="home">
         <div class="bg-holder bg-size" style="background-image:url(assets/img/illustration/2.png);background-position:left top;background-size:contain;">
         </div>
