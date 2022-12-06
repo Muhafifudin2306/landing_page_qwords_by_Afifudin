@@ -75,38 +75,25 @@
      <!-- Section Web Build ==========================-->
      <!-- ============================================-->
      <x-web_build></x-web_build>
+     
+     <!-- ============================================-->
+     <!-- Section Solver =============================-->
+     <!-- ============================================-->
+     <x-solver></x-solver>
+
+     <!-- ============================================-->
+     <!-- Section Guarantee ==========================-->
+     <!-- ============================================-->
+     <x-guarantee></x-guarantee>
+
+     <!-- ============================================-->
+     <!-- Section Commitment ============================-->
+     <!-- ============================================-->
+     <x-commitment></x-commitment>
 
      
   
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <section id="pricing">
-
-        <div class="container">
-          <div class="row flex-center">
-            <div class="col-md-6 text-center text-md-start">
-              <h4 class="fw-normal fs-3" data-zanim-xs='{"delay":0.3}' data-zanim-trigger="scroll">Your safety is always <br />a top priority</h4>
-              <p class="fs-0 pe-xl-8" data-zanim-xs='{"delay":0.5}' data-zanim-trigger="scroll">We are committed to help drivers and riders get where they want to go with confidence</p>
-              <div class="d-flex justify-content-space-between align-item-center my-3 mt-2">
-                <div>
-                  <h4 class="fw-normal fs-1">Drive</h4>
-                  <p class="my-1 fs-0 pe-xl-8">Drive when you want. Find ooprtunities around you.</p>
-                </div>
-                <div>
-                  <h4 class="fw-normal fs-1">Ride</h4>
-                  <p class="my-1 fs-0 pe-xl-8">Tap your phone. Get where you're headed</p>
-                </div>
-              </div>
-              <button class="btn btn-sm btn-primary my-4 me-1" href="#!" role="button">Get started</button><a class="btn btn-sm my-2 btn-default" href="#" role="button">Questions? Talk to our team<i class="fas fa-arrow-right ms-2"></i></a>
-            </div>
-            <div class="col-md-6 mb-4"><img class="w-100" src="assets/img/illustration/4.png" alt="..." /></div>
-          </div>
-        </div>
-        <!-- end of .container-->
-
-      </section>
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
+     
 
 
       <section class="p-0" id="docs">
@@ -163,30 +150,6 @@
         </div>
       </section>
 
-
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <section class="bg-200" id="cta">
-
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-6">
-              <h2 class="fw-bold text-black">Ready to get started?</h2>
-              <p>Get an guided demo with an OKR expert.</p>
-            </div>
-            <div class="col-lg-6 h-100">
-              <div class="input-group">
-                <input class="form-control" type="text" placeholder="Email Address" />
-                <button class="btn btn-primary rounded-start-0 px-3" type="submit">Get Started</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- end of .container-->
-
-      </section>
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
       
       <!-- ============================================-->
       <!-- Section Footer =============================-->
