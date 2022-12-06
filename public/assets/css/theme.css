@@ -22104,4 +22104,11 @@ iframe.yt-video.loaded {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+.checked
+{
+  color: orange;
+  font-size: 20px;
+}
+
 /*# sourceMappingURL=theme.css.map */
